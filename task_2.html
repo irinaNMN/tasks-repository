@@ -5,32 +5,72 @@
     <title>3 images</title>
     <style>
         img{
-            width: 200px;
-            height: 200px;
+
+            width: 250px;
+            height: 150px;
         }
-        div{
-            float: left;
-        }
+
+		.p_1 {
+			display: grid;
+			grid-template-columns: 20% 40%;
+		}
+		.p_2{
+			display: grid;
+			grid-template-columns: 20% 40%;
+		}
+		.p_3{
+			display: grid;
+			grid-template-columns: 20% 40%;
+		}
+
         .stema{
             width: 200px;
             height: auto;
             float: right;
         }
+		.drapel{
+			width: 500px;
+			height: auto;
+			float: right;
+			padding: 50px;
+		}
+
         h1{
             text-align: center;
         }
     </style>
 </head>
 <body>
-<div><!--these three color is important for Republic of Moldova -->
-    <img src="images/blue.png" alt="blue color" title="this is the blue color">
-</div>
 <div>
-    <img src="images/yellow.png" alt="yellow color" title="this is the yellow color">
-</div>
+	<img class="drapel" src="images/drapel.jpg" alt="drapelul Republicii Moldova">
+<div class="p_1">
 <div>
-    <img src="images/red.png" alt="red color" title="this is the red color">
+    <img src="images/blue.png" alt="blue color" title="albastru" >
 </div>
+<div><p>Albastru- Libertate (cerul albastru)</p></div>
+</div>
+<div class="p_2">
+	<div>
+		<img src="images/yellow.png" alt="yellow color" title="this is the yellow color">
+	</div>
+	<div><p>Dreptate (ogoarele aurite)</p></div>
+</div>
+<div class="p_3">
+	<div>
+		<img src="images/red.png" alt="red color" title="this is the red color">
+	</div>
+	<div>
+		<p>Frăție (sângele poporului”)</p>
+	</div>
+
+</div>
+
+</div>
+
+
+
+
+<!--these three color is important for Republic of Moldova -->
 <h1>Simbolurile statului</h1>
 <hr> <!--here is a line which separate the content -->
 <h2>Stema de Stat a Republicii Moldova</h2>
