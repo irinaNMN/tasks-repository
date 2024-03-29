@@ -13,3 +13,6 @@ In this file, three blocks with different colors as images are inserted. Each bl
 
 ### task_2_2.html
 This HTML file include BLOCK-LEVEL ELEMENTS `<div>`,`<h1>-<h6>`,`<hr>`,`<p>`,`<pr>` and INLINE ELEMENTS `<a>`, `<b>`, `<br>`, `<i>`, `<img>`, `<small>`, `<span>`, `<strong>`, `<sub>`, `<sup>`.
+ 
+### ordered.htm
+It HTML file contains the top level heading and ordered list
