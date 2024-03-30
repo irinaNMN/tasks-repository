@@ -15,4 +15,7 @@ In this file, three blocks with different colors as images are inserted. Each bl
 This HTML file include BLOCK-LEVEL ELEMENTS `<div>`,`<h1>-<h6>`,`<hr>`,`<p>`,`<pr>` and INLINE ELEMENTS `<a>`, `<b>`, `<br>`, `<i>`, `<img>`, `<small>`, `<span>`, `<strong>`, `<sub>`, `<sup>`.
  
 ### ordered.htm
-It HTML file contains the top level heading and ordered list
+It HTML file contains the top level heading and ordered list. The title and a top level heading is Ordered List. I put a second level heading above the list with text describing what types of items the list contains.
+
+### unordered.html
+In this HTML file I set the title and a top level heading to Unordered List. I created an unordered list with eight related items . A second Level heading above the list with text describing what types of items the list contains.
