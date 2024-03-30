@@ -23,4 +23,11 @@ In this HTML file I set the title and a top level heading to Unordered List. I c
 ### description.html
 In this file i seted the title and a top level  heading to Description List. Created a descriptions list with descriptions of the following HTML terms:
 1) HTML
-2)
+2) HTML element
+3) HTML tag
+4) HTML attribute
+5) HTML comment
+   A second level heading above the description list with HTML Terms as text.
+
+### table.html
+In this HTML file is set the title and a top level heading to Table I. It is created the table inside the new document.
