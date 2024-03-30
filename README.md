@@ -30,4 +30,4 @@ In this file i seted the title and a top level  heading to Description List. Cre
    A second level heading above the description list with HTML Terms as text.
 
 ### table.html
-In this HTML file is set the title and a top level heading to Table I. It is created the table inside the new document.
+In this HTML file is set the title and a top level heading to Table I. It was created the table inside the new document.
