@@ -31,3 +31,6 @@ In this file i seted the title and a top level  heading to Description List. Cre
 
 ### table.html
 In this HTML file is set the title and a top level heading to Table I. It was created the table inside the new document.
+
+### document.html
+The branch name is task_8. It was create a document.html file which contains all these elements : Header Section; Navigation Bar; Index; Content section and Footer Section. 
