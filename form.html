@@ -2,9 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Form</title>
+    <style>
+        form {
+            background-color: royalblue;
+            color: white;
+            width: 50%;
+        }
+
+        span {
+            display: block;
+        }
+    </style>
 </head>
 <body>
-
+<form>
+    <fieldset>
+        <legend>Personal Info</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" placeholder="rtyuuuu"><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname">
+    </fieldset>
+    <fieldset>
+        <legend>Course Info</legend>
+        <span>Course:</span>
+        <input type="radio" id="webdesign" name="course" value="Web Design">
+        <label for="webdesign">Web Design</label> <br>
+        <input type="radio" id="sql" name="course" value="SQL">
+        <label for="sql">SQL</label><br>
+        <input type="radio" id="programming" name="course" value="Programming">
+        <label for="programming">Programming</label><br>
+        <label for="goal">Career Goal</label><br>
+        <select id="goal" name="goal">
+            <option value="programmer">Programmer</option>
+            <option value="webdesigner">Web Designer</option>
+            <option value="developer">Developer</option>
+        </select>
+        <span>Skills (check all that apply):</span>
+        <input type="checkbox" id="unix" name="skills" value="UNIX">
+        <label for="unix">UNIX</label>
+        <input type="checkbox" id="vim" name="skills" value="VIM">
+        <label for="vim">VIM</label> <br>
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="python" name="skills" value="Python">
+        <label for="python">Python</label>
+        <input type="checkbox" id="js" name="skills" value="JavaScript">
+        <label for="js">JavaScript</label>
+    </fieldset>
+</form>
 </body>
 </html>
