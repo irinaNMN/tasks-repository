@@ -13,18 +13,32 @@
         span {
             display: block;
         }
+
+        .info_1 {
+            display: inline-flex;
+
+        }
+        .btn{
+            display: block;
+        }
     </style>
 </head>
 <body>
 <form>
     <fieldset>
         <legend>Personal Info</legend>
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname" placeholder="First Name" required><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname" placeholder="Last Name" required>
-        <label for="pwd">Password:</label>
-        <input type="password" id="pwd" name="pwd" placeholder="password" required minlength="8">
+        <div class="info_1"><label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required><br>
+            <label for="lname">Last name:</label>
+
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+        </div>
+        <div class="info_2">
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" placeholder="password" required minlength="8">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" value="Chisinau" readonly>
+        </div>
     </fieldset>
     <fieldset>
         <legend>Course Info</legend>
@@ -55,12 +69,13 @@
         <input type="checkbox" id="js" name="skills" value="JavaScript">
         <label for="js">JavaScript</label>
         <span>Describe any aditional skills you have:</span>
-        <label>
-            <textarea name="message" rows="10" cols="50"></textarea>
-        </label>
+        <label for="message"></label>
+        <textarea id="message" name="message" rows="10" cols="50"></textarea>
+    </fieldset>
+    <div class="btn">
         <input type="submit" value="Enter my information">
         <input type="reset" value="Reset">
-    </fieldset>
+    </div>
 </form>
 </body>
 </html>
