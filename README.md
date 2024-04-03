@@ -43,3 +43,6 @@ In this file I created a form following the model in the picture. I respect foll
 - all fields have placeholder;
 - 1 reset button;
 - 1 file input which accept only images;
+
+### table_style.html
+This HTML file contain a table. Style the file with internal css style. I use all type of selectors which I know.
