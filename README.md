@@ -49,3 +49,6 @@ This HTML file contain a table. Style the file with internal css style. I use al
 
 ### nested_list.html
 In this HTML file nested_list.html with a nested unordered list I import the external style file CSS wich is named listStyle.css. 
+
+### ord_list_icons.html
+This is a file with an ordered list with icons. Here is an ordered list with the elements studied replace `default` bullet with a content emoji.
