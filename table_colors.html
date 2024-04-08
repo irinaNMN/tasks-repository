@@ -2,9 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Table with COLORS</title>
+    <style>
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            width: 25%;
+        }
+        table{
+        margin: auto;
+        }
+        .red{
+            background-color: red;
+        }
+        .redHex{
+            background-color: #BF4848;
+        }
+        .redRgb{
+            background-color:rgba(203,103,103,1);
+        }
+        .blue{
+            background-color: blue;
+        }
+        .blueHex{
+            background-color: #4682b4;
+        }
+        .blueRgb{
+            background-color:rgb(100,149,237);
+        }
+        .green{
+            background-color: green;
+        }
+        .greenHex{
+            background-color: #0f5935;
+        }
+        .greenRgb{
+            background-color: rgb(42, 174, 74);
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .yellowHex{
+            background-color: #cdc41c;
+        }
+        .yellowRgb{
+            background-color: rgb(238,232,170);
+        }
+        .violet{
+            background-color: violet;
+        }
+        .violetHex{
+            background-color: #9400D3;
+        }
+        .violetRgb{
+            background-color: rgb(205, 159, 194);
+        }
+
+    </style>
 </head>
 <body>
-
+<table>
+    <tr>
+        <th></th>
+        <th>Color name</th>
+        <th>hex</th>
+        <th>rgb/rgba</th>
+    </tr>
+    <tr>
+        <td>red</td>
+        <td class="red">red</td>
+        <td class="redHex">#BF4848</td>
+        <td class="redRgb">203, 103, 103, 1</td>
+    </tr>
+    <tr>
+        <td>blue</td>
+        <td class="blue">blue</td>
+        <td class="blueHex">#4682b4</td>
+        <td class="blueRgb">100,149,237</td>
+    </tr>
+    <tr>
+        <td>green</td>
+        <td class="green">green</td>
+        <td class="greenHex">#0f5935</td>
+        <td class="greenRgb">42, 174, 74</td>
+    </tr>
+    <tr>
+        <td>yellow</td>
+        <td class="yellow">yellow</td>
+        <td class="yellowHex">#cdc41c</td>
+        <td class="yellowRgb">238,232,170</td>
+    </tr>
+    <tr>
+        <td>violet</td>
+        <td class="violet">viole</td>
+        <td class="violetHex">#9400D3</td>
+        <td class="violetRgb">205, 159, 194</td>
+    </tr>
+</table>
 </body>
 </html>
