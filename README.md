@@ -96,3 +96,7 @@ different colors unit. The first one - with the color name, second one - hex and
 In this HTML file are two boxes. First contains the proprietes wich are given: 5px, black, dotted border; top margin of
 20px; right margin of 1em; bottom margin of 40px; left margin of 2em; padding on all sides of 1em. Second contains
 styled by me. To the both boxes was applied the box-sizing.
+
+### boxImages.html
+
+This file contains 3 boxes with 3 images. There were used the model box components. I added a border and use some properties. Added some backgraund and used some backgraund properties. 
