@@ -85,3 +85,14 @@ bullet with a content emoji.
 in this HTML file is a form, which contains name, password, email, url, gender. At the `name`,`email`,`password` when
 the input is active the border is red and while entering text is pink. The URL is disabled and the input background
 color is gray. When is choose the gender - the input become yellow.
+
+### table_colors.html
+
+This HTML file contains a table. Table contains 5 colors with 3 shades of them. Style each cell with a shade with
+different colors unit. The first one - with the color name, second one - hex and third one rgb/rgba.
+
+### boxModel.html
+
+In this HTML file are two boxes. First contains the proprietes wich are given: 5px, black, dotted border; top margin of
+20px; right margin of 1em; bottom margin of 40px; left margin of 2em; padding on all sides of 1em. Second contains
+styled by me. To the both boxes was applied the box-sizing.
