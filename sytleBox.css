@@ -1,0 +1,18 @@
+.box_1 {
+    border: 5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+}
+
+.box_2 {
+    border: 10px double darkblue;
+    margin: 100px;
+    padding: 50px;
+}
+.box_1,.box_2{
+    height: 250px;
+    width: 400px;
+}
