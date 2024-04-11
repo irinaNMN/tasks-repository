@@ -1,0 +1,63 @@
+.block_1, .block_2, .block_3, .block_4 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: auto;
+}
+
+.block_A, .block_B, .block_C, .block2_A, .block2_B, .block2_C, .block3_A, .block3_B, .block3_C, .block4_A, .block4_B, .block4_C {
+    box-sizing: content-box;
+    margin: 10px;
+    height: 350px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Lucida Handwriting", monospace;
+    font-size: 70px;
+    color: #4b220a;
+}
+
+.main {
+    width: 70%;
+    margin: 0 auto;
+    padding: 70px;
+    background-color: rgba(220, 220, 220, 0.6);
+}
+
+.block_A {
+    font-family: Serif;
+    font-weight: bold;
+    font-size: 5ch;
+    color: #b9b904;
+    letter-spacing: 1ch;
+    word-spacing: 1.2ch;
+    text-transform: capitalize;
+    line-height: 2.5ch;
+    background-color: rgba(126, 120, 120, 0.15);
+    padding-left: 30px;
+    text-indent: 1ch;
+}
+
+.block_B {
+    font-family: Verdana Arial;
+    background-color: cornsilk;
+    line-height: 6ch;
+}
+
+.p1 {
+    font-size: x-large;
+    text-transform: uppercase;
+    text-align: center;
+}
+.spanWawes{
+    text-align: left;
+}
+.spanVawes1{
+    text-align: right;
+}
+.spanVawes2{
+text-align: left;
+}
+.spanVawes3{
+text-align: right;
+}
