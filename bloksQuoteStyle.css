@@ -1,14 +1,3 @@
-.block_1, .block_2, .block_3, .block_4 {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    margin: auto;
-}
-
-.block_A, .block_B, .block_C, .block2_A, .block2_B, .block2_C, .block3_A, .block3_B, .block3_C, .block4_A, .block4_B, .block4_C {
-    box-sizing: content-box;
-    margin: 10px;
-    height: 350px;
-}
 
 h1 {
     text-align: center;
@@ -41,7 +30,29 @@ h1 {
 .block_B {
     font-family: Verdana Arial;
     background-color: cornsilk;
-    line-height: 6ch;
+    line-height: 5ch;
+    padding-left: 20px;
+    padding-right: 15px;
+    font-size: large;
+}
+
+.block_C {
+    font-family: "Courier New";
+    padding-right: 20px;
+    background-color: rgba(148, 0, 211, 0.1);
+
+}
+
+.p_bloc_C {
+    color: #7515de;
+    font-size: 3ch;
+    font-weight: bold;
+    text-align: center;
+}
+
+.span_p_block_C {
+    color: #7515de;
+    text-align: right;
 }
 
 .p1 {
@@ -49,15 +60,124 @@ h1 {
     text-transform: uppercase;
     text-align: center;
 }
-.spanWawes{
+
+.spanWawes {
     text-align: left;
 }
-.spanVawes1{
+
+.spanVawes1 {
     text-align: right;
 }
-.spanVawes2{
-text-align: left;
+
+.spanVawes2 {
+    text-align: left;
 }
-.spanVawes3{
-text-align: right;
+
+.spanVawes3 {
+    text-align: right;
+}
+
+.block2_A {
+    text-align: center;
+    line-height: 1ch;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.block_2Bold {
+    font-family: "Century Schoolbook";
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: xxx-large;
+}
+
+.block_2Cursiv {
+    font-family: "Brush Script MT";
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+.block2_B {
+    background-image: url("images/backgraund.jpeg");
+    background-size: cover;
+    text-align: center;
+}
+
+.p_block2_B {
+    font-family: Impact, fantasy;
+    font-size: xxx-large;
+    letter-spacing: 0.3ch;
+    text-transform: capitalize;
+}
+
+.p2_block2_B {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: xxx-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+.block2_C {
+    background-color: gray;
+}
+
+.p_bloc2_C {
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.block3_A {
+    background-image: url("images/c.jpg");
+    background-size: cover;
+    font-size: 49px;
+    font-weight: bolder;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-transform: uppercase;
+    padding-left: 10px;
+    color: #b73d10;
+    text-align: center;
+    line-height: 2.5ch;
+    text-decoration: line-through rgba(245, 227, 220, 0.53) 1.4ex;
+}
+
+.block3_B {
+    background-color: #fae9d7;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-transform: capitalize;
+    font-family: Andale Mono, monospace;
+    font-size: 3.5ch;
+    font-weight: bolder;
+    color: #1d4150;
+}
+
+.p_block3_B {
+    text-transform: uppercase;
+    font-family:Impact, fantasy;
+    text-align: right;
+    font-weight: normal;
+    color: #8718ec;
+}
+.block3_C{
+    background-image: url("images/lo40.jpg");
+    background-size: cover;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 4ch;
+}
+
+.block_1, .block_2, .block_3 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: auto;
+}
+
+.block_A, .block_B, .block_C, .block2_A, .block2_B, .block2_C, .block3_A, .block3_B, .block3_C {
+    box-sizing: content-box;
+    margin: 15px;
+    height: 350px;
+    padding: 15px;
 }
