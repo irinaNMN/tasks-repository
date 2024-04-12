@@ -11,6 +11,8 @@ h1 {
     margin: 0 auto;
     padding: 70px;
     background-color: rgba(220, 220, 220, 0.6);
+    border-radius: 5px 100px;
+    box-shadow: 30px 10px 15px #a8bcd0;
 }
 
 .block_A {
@@ -141,7 +143,7 @@ h1 {
     color: #b73d10;
     text-align: center;
     line-height: 2.5ch;
-    text-decoration: line-through rgba(245, 227, 220, 0.53) 1.4ex;
+    text-decoration: line-through rgba(245, 227, 220, 0.44) 2.4ex;
 }
 
 .block3_B {
@@ -157,12 +159,13 @@ h1 {
 
 .p_block3_B {
     text-transform: uppercase;
-    font-family:Impact, fantasy;
+    font-family: Impact, fantasy;
     text-align: right;
     font-weight: normal;
-    color: #8718ec;
+    color: #004680;
 }
-.block3_C{
+
+.block3_C {
     background-image: url("images/lo40.jpg");
     background-size: cover;
     font-family: Brush Script MT, Brush Script Std, cursive;
@@ -180,4 +183,51 @@ h1 {
     margin: 15px;
     height: 350px;
     padding: 15px;
+    border: 2px solid #7c3a13;
+    outline-style: outset;
+    outline-color: #dabfc4;
+}
+
+.block_A:hover {
+    background-color: palevioletred;
+    letter-spacing: normal;
+}
+
+.block_B :hover {
+    background-color: #b9b904;
+}
+
+.block_C :hover {
+    color: yellow;
+    font-size: xx-large;
+}
+
+.block2_A :hover {
+    text-align: justify;
+}
+
+.block2_B :hover {
+    color: red;
+}
+
+.block2_C :hover {
+    background-color: white;
+    color: #1d4150;
+}
+
+.block3_A :hover {
+    color: black;
+    text-transform: lowercase;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.block3_B :hover {
+    letter-spacing: 1.5ch;
+}
+
+.block3_C :hover {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: darkgreen;
+    text-align: center;
 }
