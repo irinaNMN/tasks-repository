@@ -100,3 +100,7 @@ styled by me. To the both boxes was applied the box-sizing.
 ### boxImages.html
 
 This file contains 3 boxes with 3 images. There were used the model box components. I added a border and use some properties. Added some backgraund and used some backgraund properties. 
+
+### bloksQuote.html
+
+This HTML file contains 9 blocks. Each block contains a quote. Each quote is display in different ways and is styled.
