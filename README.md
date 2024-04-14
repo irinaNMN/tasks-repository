@@ -99,7 +99,13 @@ styled by me. To the both boxes was applied the box-sizing.
 
 ### boxImages.html
 
-This file contains 3 boxes with 3 images. There were used the model box components. I added a border and use some properties. Added some backgraund and used some backgraund properties. 
+This file contains 3 boxes with 3 images. There were used the model box components. I added a border and use some
+properties. Added some backgraund and used some backgraund properties.
+
+### About_position.html
+
+In this HTML file was added four divs to the page. Inside of each divs is a text. Each div has a border. Position each
+div absolutely. Each div has a top and left value.
 
 ### bloksQuote.html
 
