@@ -104,7 +104,7 @@ properties. Added some backgraund and used some backgraund properties.
 
 ### About_position.html
 
-In this HTML file was added four divs to the page. Inside of each divs is a text. Each div has a border. Position each
+In this HTML file was added four divs to the page. Inside of each div is a text. Each div has a border. Position each
 div absolutely. Each div has a top and left value.
 
 ### bloksQuote.html
