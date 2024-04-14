@@ -1,0 +1,63 @@
+.mainBox {
+    position: absolute;
+    width: 1100px;
+    height: 800px;
+    border: 3px solid #1d4150;
+}
+
+.box1 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 250px;
+    height: 750px;
+    border: 3px solid #969a9a;
+    background-image: url("images/thumb-1920-1354011.png");
+    background-size: cover;
+    color: #1d4150;
+    font-size: large;
+    padding: 5px;
+    font-family: "Comic Sans MS";
+}
+
+.box2 {
+    position: absolute;
+    top: 15px;
+    left: 280px;
+    width: 250px;
+    height: 750px;
+    border: 3px solid #969a9a;
+    background-image: url("images/beach-picture-image_947274.jpg");
+    background-size: cover;
+    font-size: large;
+    font-family: "Comic Sans MS";
+    padding: 5px;
+}
+
+.box3 {
+    position: absolute;
+    top: 15px;
+    left: 550px;
+    width: 250px;
+    height: 750px;
+    border: 3px solid #969a9a;
+    background-image: url("images/autumn12.jpg");
+    background-size: cover;
+    font-family: "Comic Sans MS";
+    font-size: large;
+    padding: 5px;
+}
+
+.box4 {
+    position: absolute;
+    top: 15px;
+    left: 820px;
+    width: 250px;
+    height: 750px;
+    border: 3px solid #969a9a;
+    background-image: url("images/winter53.jpeg");
+    background-size: cover;
+    font-family: "Comic Sans MS";
+    font-size: 15px;
+    padding: 5px;
+}
