@@ -1,0 +1,84 @@
+.header {
+    width: 800px;
+    height: 150px;
+    position: relative;
+    border: 2px solid rgba(52, 77, 52, 0.93);
+    background-color: rgba(245, 252, 243, 0.44);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgba(52, 77, 52, 0.93);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-image: url("images/Black Cream Elegant Monogram Initial Name I C Logo .png");
+    background-size: cover;
+    box-shadow: 5px 5px 5px #c3eab8;
+    border-radius: 4px
+}
+
+.top-nav {
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+}
+
+.menu {
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    right: 35px;
+    bottom: 20px;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(112, 162, 46, 0.47);
+    border-radius: 4px
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgba(52, 77, 52, 0.93);
+    text-align: center;
+    font-size: large;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu {
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(112, 162, 46, 0.47);
+    color: rgba(52, 77, 52, 0.93);
+    font-size: large;
+}
+
+.contet {
+    width: 800px;
+    height: 600px;
+    position: relative;
+    top: 5px;
+    border: 2px solid rgba(52, 77, 52, 0.93);
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
