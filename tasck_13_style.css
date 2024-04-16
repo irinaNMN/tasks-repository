@@ -1,0 +1,70 @@
+.magazine {
+    margin: auto;
+    background: pink;
+}
+
+.header {
+    width: 90%;
+    height: 150px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: auto;
+
+}
+
+.logo {
+    width: 110px;
+    height: 110px;
+    background-image: url("images/ElegantLogo .png");
+    background-size: cover;
+    float: left;
+    padding: 20px;
+}
+
+.navigation {
+
+    height: 50px;
+    border: 1px solid royalblue;
+    float: right;
+    width: 20%;
+    padding: 5px;
+    margin-top: -70px;
+    margin-right: 10px;
+
+}
+
+h1 {
+    font-family: Apple Chancery, cursive;
+    color: #3301b7;
+    padding-top: 20px;
+}
+
+.main {
+    width: 90%;
+    height: 550px;
+    border: 1px solid red;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+
+}
+
+.sidebar {
+    width: 20%;
+    height: 100%;
+    border: 1px solid pink;
+}
+
+.content {
+    width: 80%;
+    height: 100%;
+    border: 1px solid brown;
+}
+
+.footer {
+    width: 90%;
+    height: 150px;
+    border: 1px solid green;
+    padding: 5px;
+    margin: auto;
+}
