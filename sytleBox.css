@@ -1,18 +1,45 @@
-.box_1 {
+.content_box {
     border: 5px dotted black;
     margin-top: 20px;
     margin-right: 1em;
     margin-bottom: 40px;
     margin-left: 2em;
     padding: 1em;
+    box-sizing: content-box;
 }
 
-.box_2 {
-    border: 10px double darkblue;
-    margin: 100px;
-    padding: 50px;
+.border_box {
+    border: 5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+    box-sizing: border-box;
 }
-.box_1,.box_2{
-    height: 250px;
-    width: 400px;
+
+.custom_content_box {
+    border: 10px double #234764;
+    margin: 10px;
+    padding: 50px;
+    box-sizing: content-box;
+}
+
+.custom_border_box {
+    border: 10px double #234764;
+    margin: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.BoxModel{
+    height:400px;
+    width: 600px;
+    padding: 20px;
+    border: 1px solid darkblue;
+    margin: auto;
+    background: rgba(0, 169, 169, 0.1);
+}
+.box{
+    padding: 50px;
+
 }
