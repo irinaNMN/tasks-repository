@@ -85,3 +85,41 @@ bullet with a content emoji.
 in this HTML file is a form, which contains name, password, email, url, gender. At the `name`,`email`,`password` when
 the input is active the border is red and while entering text is pink. The URL is disabled and the input background
 color is gray. When is choose the gender - the input become yellow.
+
+### table_colors.html
+
+This HTML file contains a table. Table contains 5 colors with 3 shades of them. Style each cell with a shade with
+different colors unit. The first one - with the color name, second one - hex and third one rgb/rgba.
+
+### boxModel.html
+
+In this HTML file are two boxes. First contains the proprietes wich are given: 5px, black, dotted border; top margin of
+20px; right margin of 1em; bottom margin of 40px; left margin of 2em; padding on all sides of 1em. Second contains
+styled by me. To the both boxes was applied the box-sizing.
+
+### boxImages.html
+
+This file contains 3 boxes with 3 images. There were used the model box components. I added a border and use some
+properties. Added some backgraund and used some backgraund properties.
+
+### About_position.html
+
+In this HTML file was added four divs to the page. Inside of each div is a text. Each div has a border. Position each
+div absolutely. Each div has a top and left value.
+
+### bloksQuote.html
+
+This HTML file contains 9 blocks. Each block contains a quote. Each quote is display in different ways and is styled.
+
+### About_position.html
+
+There are created HTML file About_position.html and stylesheet file position_style.css. In the HTML file was added four
+divs to the page, inside each div is placed text. Each div has a border and each of them has position absolutely.
+Each div has a top and left value.
+
+### header_position.html
+
+There were created a html file header_position.html and a linked stylesheet file header_style.html. There is a div with
+class of header, it has width: 800px; height: 150px; position:absolute and a border in the stylesheet file
+header_style.html. Inside the div with class of header is three divs with classes of logo, top-nav and menu, each of
+them has position:absolute;
