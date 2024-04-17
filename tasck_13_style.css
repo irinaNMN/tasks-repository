@@ -1,12 +1,13 @@
 .magazine {
     margin: auto;
-    background: pink;
+    width: 90%;
+    height: 90%;
 }
 
 .header {
+    background: rgba(255, 192, 203, 0.15);
     width: 90%;
     height: 150px;
-    border: 1px solid black;
     padding: 5px;
     margin: auto;
 
@@ -19,16 +20,16 @@
     background-size: cover;
     float: left;
     padding: 20px;
+    border-radius: 50%;
 }
 
 .navigation {
 
-    height: 50px;
-    border: 1px solid royalblue;
+    border: 1px dotted #FF66C4;
+    border-radius: 10%;
     float: right;
-    width: 20%;
     padding: 5px;
-    margin-top: -70px;
+    margin-top: -9px;
     margin-right: 10px;
 
 }
@@ -41,30 +42,106 @@ h1 {
 
 .main {
     width: 90%;
-    height: 550px;
-    border: 1px solid red;
+    height: 700px;
     padding: 5px;
     margin: auto;
     display: flex;
+    background: rgba(255, 192, 203, 0.09);
 
+}
+.content{
+    column-count: 3;
+    padding: 20px;
+    font-family: "Times New Roman";
+    font-size: 2.1ch;
+}
+img{
+    width: 150px;
+    height: 200px;
+    float: left;
+    padding: 5px;
 }
 
 .sidebar {
     width: 20%;
     height: 100%;
-    border: 1px solid pink;
+}
+
+.category {
+    height: 10%;
+    width: 80%;
+    margin-left: 20px;
+    display: list-item;
+    list-style-type: "\1F49F";
 }
 
 .content {
     width: 80%;
     height: 100%;
-    border: 1px solid brown;
 }
 
 .footer {
     width: 90%;
     height: 150px;
-    border: 1px solid green;
     padding: 5px;
     margin: auto;
+    background: rgba(255, 192, 203, 0.87);
+}
+
+.table {
+    display: table;
+    width: 100%;
+}
+
+.row {
+    display: table-row;
+}
+
+.cel {
+    display: table-cell;
+    padding: 6px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(168, 110, 187, 0.38);
+    border-radius: 4px
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #3301b7;
+    text-align: center;
+    font-size: large;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: #d07ec2;
+}
+
+.list_category:link, .list_category:visited{
+    background-color: rgba(168, 110, 187, 0.38);
+    color: #3301b7;
+    padding: 16px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Courier New";
+    text-transform: uppercase;
+    display: inline-block;
+    width: 90%;
+}
+.list_category:hover, .list_category:active{
+    background-color: #d07ec2;
 }
