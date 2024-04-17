@@ -123,3 +123,8 @@ There were created a html file header_position.html and a linked stylesheet file
 class of header, it has width: 800px; height: 150px; position:absolute and a border in the stylesheet file
 header_style.html. Inside the div with class of header is three divs with classes of logo, top-nav and menu, each of
 them has position:absolute;
+
+### tasck_13.html
+
+Here is a sidebar and main content floated next to each other with a cleared footer. The header contains logo and
+navigation. Here I used floats, display property with list and table options with content inside boxes. 
