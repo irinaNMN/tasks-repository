@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <style>
+        form {
+            background-color: royalblue;
+            color: white;
+            width: 50%;
+        }
+
+        span {
+            display: block;
+        }
+
+        .info_1 {
+            display: inline-flex;
+
+        }
+        .btn{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Personal Info</legend>
+        <div class="info_1"><label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required><br>
+            <label for="lname">Last name:</label>
+
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+        </div>
+        <div class="info_2">
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" placeholder="password" required minlength="8">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" value="Chisinau" readonly>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Course Info</legend>
+        <span>Course:</span>
+        <input type="radio" id="webdesign" name="course" value="Web Design">
+        <label for="webdesign">Web Design</label> <br>
+        <input type="radio" id="sql" name="course" value="SQL">
+        <label for="sql">SQL</label><br>
+        <input type="radio" id="programming" name="course" value="Programming">
+        <label for="programming">Programming</label><br>
+        <label for="goal">Career Goal</label><br>
+        <select id="goal" name="goal">
+            <option value="programmer">Programmer</option>
+            <option value="webdesigner">Web Designer</option>
+            <option value="developer">Developer</option>
+        </select>
+        <span>Skills (check all that apply):</span>
+        <input type="checkbox" id="unix" name="skills" value="UNIX">
+        <label for="unix">UNIX</label>
+        <input type="checkbox" id="vim" name="skills" value="VIM">
+        <label for="vim">VIM</label> <br>
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id="python" name="skills" value="Python">
+        <label for="python">Python</label>
+        <input type="checkbox" id="js" name="skills" value="JavaScript">
+        <label for="js">JavaScript</label>
+        <span>Describe any aditional skills you have:</span>
+        <label for="message"></label>
+        <textarea id="message" name="message" rows="10" cols="50"></textarea>
+    </fieldset>
+    <div class="btn">
+        <input type="submit" value="Enter my information">
+        <input type="file" id="imageUpload" name="imageUpload" accept="image/*">
+        <input type="reset" value="Reset">
+
+    </div>
+</form>
+</body>
+</html>
