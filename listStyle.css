@@ -1,9 +1,7 @@
 .chenar{
-    align-content: center;
-    align-self: center;
    background-color: rgba(0, 169, 169, 0.07);
     width: 400px;
-    height: 700px;
+    height: 800px;
     border: 10px solid cadetblue;
     padding: 50px;
     margin: auto;
@@ -11,12 +9,10 @@
 h1{
  text-align: center;
     color: #1d4150;
-    font-family: "Arial Black";
+    font-family: Arial, sans-serif;
 }
 ul{
-    list-style-position: inside;
     line-height: 35px;
-    text-size-adjust: auto;
 }
  ul li {
    color: darkblue;
