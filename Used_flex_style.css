@@ -1,0 +1,60 @@
+.poster {
+    display: flex;
+    width: 90%;
+    height: 1200px;
+    border: 1px solid red;
+    flex-wrap: wrap;
+}
+.block1, .block2, .block3, .block4, .block5, .block6, .block7, .block8, .block9, .block10, .block11, .block12 {
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+.block1 {
+  border: 1px solid #a227ab;
+}
+
+.block2 {
+    border: 1px solid #33986e;
+}
+
+.block3 {
+    border: 1px solid black;
+}
+
+.block4 {
+    border: 1px solid #4843c5;
+}
+
+.block5 {
+    border: 1px solid #568286;
+}
+
+.block6 {
+    border: 1px solid #62a647;
+}
+
+.block7 {
+    border: 1px solid #d79947;
+}
+
+.block8 {
+    border: 1px solid #881515;
+}
+
+.block9 {
+    border: 1px solid #b9b904;
+}
+
+.block10 {
+    border: 1px solid #7384ef;
+}
+
+.block11 {
+    border: 1px solid #234764;
+}
+
+.block12 {
+    border: 1px solid black;
+}
