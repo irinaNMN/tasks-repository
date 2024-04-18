@@ -101,3 +101,30 @@ styled by me. To the both boxes was applied the box-sizing.
 
 This file contains 3 boxes with 3 images. There were used the model box components. I added a border and use some
 properties. Added some backgraund and used some backgraund properties.
+
+### About_position.html
+
+In this HTML file was added four divs to the page. Inside of each div is a text. Each div has a border. Position each
+div absolutely. Each div has a top and left value.
+
+### bloksQuote.html
+
+This HTML file contains 9 blocks. Each block contains a quote. Each quote is display in different ways and is styled.
+
+### About_position.html
+
+There are created HTML file About_position.html and stylesheet file position_style.css. In the HTML file was added four
+divs to the page, inside each div is placed text. Each div has a border and each of them has position absolutely.
+Each div has a top and left value.
+
+### header_position.html
+
+There were created a html file header_position.html and a linked stylesheet file header_style.html. There is a div with
+class of header, it has width: 800px; height: 150px; position:absolute and a border in the stylesheet file
+header_style.html. Inside the div with class of header is three divs with classes of logo, top-nav and menu, each of
+them has position:absolute;
+
+### tasck_13.html
+
+Here is a sidebar and main content floated next to each other with a cleared footer. The header contains logo and
+navigation. Here I used floats, display property with list and table options with content inside boxes. 
