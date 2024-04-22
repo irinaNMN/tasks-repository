@@ -128,3 +128,7 @@ them has position:absolute;
 
 Here is a sidebar and main content floated next to each other with a cleared footer. The header contains logo and
 navigation. Here I used floats, display property with list and table options with content inside boxes. 
+
+### Used_flex.html
+
+This is new responsive layout page with flexbox.
