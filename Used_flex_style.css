@@ -121,3 +121,9 @@ h1 {
     text-transform: uppercase;
     color: rgba(117, 99, 90, 0.93);
 }
+@media all and(max-width: 800px){
+    .poster{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
