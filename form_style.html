@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORM</title>
+    <style>
+        #url:disabled {
+            color: grey;
+            background-color: rgba(169, 169, 169, 0.25);
+        }
+
+        input[type='radio']:checked {
+            accent-color: yellow;
+        }
+
+        input[type='text']:active {
+            border-color: red;
+        }
+
+        input[type='email']:active {
+            border-color: red;
+        }
+
+        input[type='password']:active {
+            border-color: red;
+        }
+
+        #name:focus {
+            color: pink;
+        }
+
+        #email:focus {
+            color: pink;
+        }
+
+        #password:focus {
+            color: pink;
+        }
+
+        fieldset {
+            width: 350px;
+            height: 350px;
+            border: 5px solid grey;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: whitesmoke;
+            line-height: 2.5;
+            margin: auto;
+        }
+
+        legend {
+            padding: 5px 10px;
+            font-size: 25px;
+        }
+
+        .username {
+            display: grid;
+            grid-template-columns: 40% 60%;
+        }
+
+        .emailName {
+            display: grid;
+            grid-template-columns: 40% 60%;
+        }
+
+        .password {
+            display: grid;
+            grid-template-columns: 40% 60%;
+        }
+
+        .url {
+            display: grid;
+            grid-template-columns: 40% 60%;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Personal information</legend>
+        <div class="username">
+            <div><label for="name">User Name</label></div>
+            <div><input type="text" id="name" name="name"></div>
+        </div>
+        <div class="emailName">
+            <div>
+                <label for="email">Email</label>
+            </div>
+            <div>
+                <input type="email" id="email" name="email">
+            </div>
+        </div>
+        <div class="password">
+            <div><label for="password">Password</label></div>
+            <div><input type="password" id="password" name="password"></div>
+        </div>
+        <div class="url">
+            <div><label for="url">URL</label></div>
+            <div><input type="url" id="url" name="url" value="https://www.google.com/" disabled></div>
+        </div>
+        <span>Choose your gender</span>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+    </fieldset>
+</form>
+</body>
+</html>
