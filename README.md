@@ -127,8 +127,13 @@ them has position:absolute;
 ### tasck_13.html
 
 Here is a sidebar and main content floated next to each other with a cleared footer. The header contains logo and
-navigation. Here I used floats, display property with list and table options with content inside boxes. 
+navigation. Here I used floats, display property with list and table options with content inside boxes.
 
 ### Used_flex.html
 
 This is new responsive layout page with flexbox.
+
+### Grid_container_1.html; Grid_container_2.html; Grid_container_3.html; Grid_container_4.html; Grid_container_5.html;
+### Grid_container_6.html; Grid_container_7.html; Grid_container_8.html; Grid_container_9.html
+
+These HTML files contain different grid containers with the given layouts.
