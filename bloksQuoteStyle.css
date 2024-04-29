@@ -1,0 +1,233 @@
+
+h1 {
+    text-align: center;
+    font-family: "Lucida Handwriting", monospace;
+    font-size: 70px;
+    color: #4b220a;
+}
+
+.main {
+    width: 70%;
+    margin: 0 auto;
+    padding: 70px;
+    background-color: rgba(220, 220, 220, 0.6);
+    border-radius: 5px 100px;
+    box-shadow: 30px 10px 15px #a8bcd0;
+}
+
+.block_A {
+    font-family: Arial Narrow, sans-serif;
+    font-weight: bold;
+    font-size: 5ch;
+    color: #b9b904;
+    letter-spacing: 1ch;
+    word-spacing: 1.2ch;
+    text-transform: capitalize;
+    line-height: 2.5ch;
+    background-color: rgba(126, 120, 120, 0.15);
+    padding-left: 30px;
+    text-indent: 1ch;
+}
+
+.block_B {
+    font-family: Verdana, sans-serif;
+    background-color: cornsilk;
+    line-height: 4ch;
+    padding-left: 20px;
+    padding-right: 15px;
+    font-size: large;
+}
+
+.block_C {
+    font-family: Courier New, monospace;
+    padding-right: 20px;
+    background-color: rgba(148, 0, 211, 0.1);
+
+}
+
+.p_bloc_C {
+    color: #7515de;
+    font-size: 3ch;
+    font-weight: bold;
+    text-align: center;
+}
+
+.span_p_block_C {
+    color: #7515de;
+    text-align: right;
+}
+
+.p1 {
+    font-size: x-large;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.spanWawes {
+    text-align: left;
+}
+
+.spanVawes1 {
+    text-align: right;
+}
+
+.spanVawes2 {
+    text-align: left;
+}
+
+.spanVawes3 {
+    text-align: right;
+}
+
+.block2_A {
+    text-align: center;
+    line-height: 1ch;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.block_2Bold {
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: xxx-large;
+}
+
+.block_2Cursiv {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+.block2_B {
+    background-image: url("images/backgraund.jpeg");
+    background-size: cover;
+    text-align: center;
+}
+
+.p_block2_B {
+    font-family: Impact, fantasy;
+    font-size: xxx-large;
+    letter-spacing: 0.3ch;
+    text-transform: capitalize;
+}
+
+.p2_block2_B {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: xxx-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+.block2_C {
+    background-color: gray;
+}
+
+.p_bloc2_C {
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.block3_A {
+    background-image: url("images/c.jpg");
+    background-size: cover;
+    font-size: 49px;
+    font-weight: bolder;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-transform: uppercase;
+    padding-left: 10px;
+    color: #b73d10;
+    text-align: center;
+    line-height: 2.5ch;
+    text-decoration: line-through rgba(245, 227, 220, 0.44) 2.4ex;
+}
+
+.block3_B {
+    background-color: #fae9d7;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-transform: capitalize;
+    font-family: Andale Mono, monospace;
+    font-size: 3.5ch;
+    font-weight: bolder;
+    color: #1d4150;
+}
+
+.p_block3_B {
+    text-transform: uppercase;
+    font-family: Impact, fantasy;
+    text-align: right;
+    font-weight: normal;
+    color: #004680;
+}
+
+.block3_C {
+    background-image: url("images/lo40.jpg");
+    background-size: cover;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 4ch;
+}
+
+.block_1, .block_2, .block_3 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    repeat(3, 1 fr);
+}
+
+.block_A, .block_B, .block_C, .block2_A, .block2_B, .block2_C, .block3_A, .block3_B, .block3_C {
+    box-sizing: content-box;
+    margin: 15px;
+    height: 350px;
+    padding: 15px;
+    border: 2px solid #7c3a13;
+    outline-style: outset;
+    outline-color: #dabfc4;
+}
+
+.block_A:hover {
+    background-color: palevioletred;
+    letter-spacing: normal;
+}
+
+.block_B :hover {
+    background-color: #b9b904;
+}
+
+.block_C :hover {
+    color: yellow;
+    font-size: xx-large;
+}
+
+.block2_A :hover {
+    text-align: justify;
+}
+
+.block2_B :hover {
+    color: red;
+}
+
+.block2_C :hover {
+    background-color: white;
+    color: #1d4150;
+}
+
+.block3_A :hover {
+    color: black;
+    text-transform: lowercase;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.block3_B :hover {
+    letter-spacing: 1.5ch;
+}
+
+.block3_C :hover {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: darkgreen;
+    text-align: center;
+}
