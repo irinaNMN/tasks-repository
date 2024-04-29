@@ -16,7 +16,7 @@ h1 {
 }
 
 .block_A {
-    font-family: Serif;
+    font-family: Arial Narrow, sans-serif;
     font-weight: bold;
     font-size: 5ch;
     color: #b9b904;
@@ -30,16 +30,16 @@ h1 {
 }
 
 .block_B {
-    font-family: Verdana Arial;
+    font-family: Verdana, sans-serif;
     background-color: cornsilk;
-    line-height: 5ch;
+    line-height: 4ch;
     padding-left: 20px;
     padding-right: 15px;
     font-size: large;
 }
 
 .block_C {
-    font-family: "Courier New";
+    font-family: Courier New, monospace;
     padding-right: 20px;
     background-color: rgba(148, 0, 211, 0.1);
 
@@ -87,14 +87,14 @@ h1 {
 }
 
 .block_2Bold {
-    font-family: "Century Schoolbook";
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
     font-weight: bolder;
     text-transform: uppercase;
     font-size: xxx-large;
 }
 
 .block_2Cursiv {
-    font-family: "Brush Script MT";
+    font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: xxx-large;
     font-weight: bold;
 }
@@ -175,7 +175,7 @@ h1 {
 .block_1, .block_2, .block_3 {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    margin: auto;
+    repeat(3, 1 fr);
 }
 
 .block_A, .block_B, .block_C, .block2_A, .block2_B, .block2_C, .block3_A, .block3_B, .block3_C {
