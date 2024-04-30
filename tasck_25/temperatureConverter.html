@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+    <script src="temperatureConverter.js"></script>
+    <link rel="stylesheet" href="temperatureConverterStyle.css">
+</head>
+<body>
+<div class="temperatureConverter">
+    <div class="title"><h2>Temperature converter:</h2></div>
+    <div class="information"><p>The third method with dynamical variables:</p></div>
+    <div>
+        <input type="number" id="celsiusValue" name="celsiusValue">
+        <label for="celsiusValue">°C</label>
+    </div>
+    <div>
+        <button onclick="convertCelsiusToFahrenheit()">Convert</button>
+    </div>
+    <div>
+        <span id="resultValueFahrenheit"></span>
+        <span>°F</span><br>
+    </div>
+    <div><input type="number" id="fahrenheitValue" name="fahrenheitValue">
+        <label for="fahrenheitValue">°F</label></div>
+    <div>
+        <button onclick="convertFahrenheitToCelsius()">Convert</button>
+    </div>
+    <div>
+        <span id="resultValueCelsius"></span>
+        <span>°C</span>
+    </div>
+</div>
+</body>
+</html>

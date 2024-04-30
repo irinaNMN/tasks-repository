@@ -1,0 +1,57 @@
+body {
+    background-image: radial-gradient(rgba(115, 34, 59, 0.3), white, rgba(255, 192, 203, 0.31), lightyellow);
+    background-size: revert;
+    padding: 50px;
+}
+
+.temperatureConverter {
+    width: 40%;
+    border: 5px solid rgba(126, 120, 120, 0.22);
+    background: rgba(245, 245, 245, 0.88);
+    border-radius: 10px;
+    padding: 25px;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 3ch;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+}
+
+.title {
+    grid-column: 1 / span 3;
+}
+
+.information {
+    grid-column: 1 / span 3;
+}
+
+input {
+    width: 5ch;
+    height: 4ch;
+    font-size: 2ch;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #73223b;
+}
+
+button {
+    width: 120px;
+    height: 50px;
+    font-size: 2ch;
+    font-family: Trebuchet MS, sans-serif;
+    border-radius: 10px;
+    border: 1px solid #73223b;
+}
+
+button:hover {
+    background-color: #d06077
+}
+
+button:active {
+    background-color: #8e533e;
+    color: white;
+    font-size: x-large;
+}
