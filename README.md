@@ -134,6 +134,21 @@ navigation. Here I used floats, display property with list and table options wit
 This is new responsive layout page with flexbox.
 
 ### Grid_container_1.html; Grid_container_2.html; Grid_container_3.html; Grid_container_4.html; Grid_container_5.html;
+
 ### Grid_container_6.html; Grid_container_7.html; Grid_container_8.html; Grid_container_9.html
 
 These HTML files contain different grid containers with the given layouts.
+
+### calculator.html
+
+Here is created a simple calculator as on the picture with HTML and CSS. When passing over the numbers was added effects
+on hover.
+
+### fileWithJS.html
+
+Here was created my first js program. Was written 'Hello, World!' using : console.log(); alert(); document.write().
+
+### temperatureConverter.html
+
+Here was created a temperature converter, Celsius to Fahrenheit and vice versa, using JavaScript, in three ways: with
+static variables; with random variables; with dynamical variables.
