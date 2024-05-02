@@ -134,6 +134,13 @@ navigation. Here I used floats, display property with list and table options wit
 This is new responsive layout page with flexbox.
 
 ### Grid_container_1.html; Grid_container_2.html; Grid_container_3.html; Grid_container_4.html; Grid_container_5.html;
+
 ### Grid_container_6.html; Grid_container_7.html; Grid_container_8.html; Grid_container_9.html
 
 These HTML files contain different grid containers with the given layouts.
+
+### shuttleRoute.html
+
+Here was determined how many days the space shuttle will take to reach Mars. Was given name of the space shuttle:
+Determination; shuttle speed (mph): 17500; Distance to Mars (km): 225,000,000; distance to the Moon (km): 384,400; miles
+per kilometer: 0.621. 
