@@ -1,0 +1,10 @@
+#shuttleRoute{
+    width: 50%;
+    border: 1px solid springgreen;
+    background: #0f5935;
+    color: white;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    font-size: x-large;
+}
