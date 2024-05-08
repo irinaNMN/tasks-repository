@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px 1fr;
+    background-color: #1d4150;
+    width: 50%;
+    height: 450px;
+    gap: 10px;
+    margin: auto;
+    padding: 15px;
+}
+.box1{
+    background-color: rgba(236, 69, 31, 0.8);
+}
+.box2{
+    background-color: rgb(18, 227, 178);
+}
+.box3{
+    background-color: rgba(236, 31, 31, 0.8);
+}
+.box4{
+    background-color: rgb(0, 128, 98);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    padding: 15px;
+}
+
+.cel1{
+    background-color: rgb(18, 227, 178);
+    grid-column: 1 / span 2;
+}
+
+.cel2{
+    background-color: rgb(20, 169, 134);
+}
+.cel3{
+    background-color: rgba(236, 140, 31, 0.8);
+}
