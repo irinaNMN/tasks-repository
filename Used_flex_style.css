@@ -1,0 +1,129 @@
+.poster {
+    display: flex;
+    width: 85%;
+    height: 1200px;
+    border: 1px solid #87856F;
+    flex-wrap: wrap;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.block1, .block2, .block3, .block4, .block5, .block6, .block7, .block8, .block9, .block10, .block11, .block12 {
+    padding: 5px;
+    width: 30%;
+    height: 22%;
+    margin: 5px;
+}
+
+.block1 {
+    border: 1px solid #FFA280;
+    background-image: url("images/1Belive in yourself.png");
+    background-size: cover;
+}
+
+.block2 {
+    border: 1px solid #FFA280;
+    display: flex;
+    font-size: xx-large;
+    color: rgba(141, 46, 4, 0.93);
+    font-weight: bold;
+    text-align: right;
+    font-family: DejaVu Sans Mono, monospace;
+    padding: 5px;
+    line-height: 2.5ch;
+}
+
+.block3 {
+    border: 1px solid #FFA280;
+    display: flex;
+    flex-direction: column;
+    background: rgba(179, 211, 62, 0.22);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: x-large;
+    color: rgba(117, 99, 90, 0.93);
+}
+
+.block4 {
+    border: 1px solid #FFA280;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-weight: bold;
+    font-size: x-large;
+    flex-wrap: wrap;
+    color: #4b5ace;
+    text-transform: uppercase;
+    justify-content: space-between;
+    background: rgba(238, 130, 238, 0.06);
+
+
+}
+
+.img_blck4 {
+    width: 240px;
+    height: 160px;
+}
+
+.block5 {
+    border: 1px solid #FFA280;
+    background-image: url("images/6u.jpg");
+    background-size: cover;
+}
+
+.block6 {
+    border: 1px solid #FFA280;
+    display: flex;
+    justify-content: center;
+    background: aliceblue;
+}
+
+.block7 {
+    border: 1px solid #FFA280;
+    background-image: url("images/9lu.jpg");
+    background-size: cover;
+}
+
+.block8 {
+    border: 1px solid #FFA280;
+    background-image: url("images/88.png");
+    background-size: contain;
+}
+
+.block9 {
+    border: 1px solid #FFA280;
+    background-image: url("images/12.png");
+    background-size: cover;
+}
+
+.block10 {
+    border: 1px solid #FFA280;
+    background-image: url("images/10Belivef.png");
+    background-size: cover;
+}
+
+.block11 {
+    border: 1px solid #FFA280;
+    background-image: url("images/11u.png");
+    background-size: cover;
+}
+
+.block12 {
+    border: 1px solid #FFA280;
+    background-image: url("images/ffffu.png");
+    background-size: contain;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(117, 99, 90, 0.93);
+}
+@media all and(max-width: 800px){
+    .poster{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
