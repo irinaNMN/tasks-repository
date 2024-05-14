@@ -35,7 +35,8 @@ function operationOfDivide() {
     let mySecondNumber = document.getElementById("secondNumber").value;
     document.getElementById("showResult").innerHTML = 'The result is ' + (myFirstNumber / mySecondNumber);
 }
-function operationofReset() {
+
+function operationOfReset() {
     document.getElementById("showResult").innerHTML = "";
     document.getElementById("firstNumber").value = "";
     document.getElementById("secondNumber").value = "";
