@@ -1,0 +1,59 @@
+.arithmetic_operations {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.exerciseNr1 {
+  border: 5px solid #878f99;
+  height: 200px;
+  width: 550px;
+  padding: 25px;
+  margin: 5px;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.exerciseNr2 {
+  border: 5px solid #b2ad7f;
+  height: 200px;
+  width: 550px;
+  padding: 25px;
+  margin: 5px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center; }
+
+.exerciseNr3 {
+  border: 5px solid #a2b9bc;
+  height: 200px;
+  width: 550px;
+  padding: 25px;
+  margin: 5px;
+  font-size: 25px;
+  display: grid;
+  align-content: space-between;
+  gap: 5px; }
+
+button {
+  background-color: #1d4150;
+  padding: 15px 32px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+input {
+  height: 3ch;
+  width: 10ch;
+  font-size: 25px; }
+
+/*# sourceMappingURL=arithmetic_operations.css.map */
