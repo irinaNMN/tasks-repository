@@ -1,0 +1,68 @@
+$primary_1: #a2b9bc;
+$primary_2: #b2ad7f;
+$primary_3: #878f99;
+$primary_4: #1d4150;
+$fontsize: 25px;
+$boxheight: 200px;
+$boxwidth: 550px;
+
+.arithmetic_operations{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.exerciseNr1{
+    border: 5px solid $primary_3;
+    height: $boxheight;
+    width: $boxwidth;
+    padding: 25px;
+    margin: 5px;
+    font-size:$fontsize;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.exerciseNr2{
+    border: 5px solid $primary_2;
+    height: $boxheight;
+    width: $boxwidth;
+    padding: 25px;
+    margin: 5px;
+    font-size:$fontsize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.exerciseNr3{
+    border: 5px solid $primary_1;
+    height: $boxheight;
+    width: $boxwidth;
+    padding: 25px;
+    margin: 5px;
+    font-size:$fontsize;
+    display: grid;
+    align-content: space-between;
+    gap: 5px;
+
+}
+button{
+    background-color: $primary_4;
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input{
+    height: 3ch;
+    width: 10ch;
+    font-size:$fontsize;
+}
