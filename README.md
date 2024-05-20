@@ -36,7 +36,7 @@ related items . A second Level heading above the list with text describing what 
 
 ### description.html
 
-In this file i seted the title and a top level heading to Description List. Created a descriptions list with
+In this file the title has been set and a top level heading to Description List. Created a descriptions list with
 descriptions of the following HTML terms:
 
 1) HTML
@@ -72,7 +72,7 @@ This HTML file contain a table. Style the file with internal css style. I use al
 
 ### nested_list.html
 
-In this HTML file nested_list.html with a nested unordered list I import the external style file CSS wich is named
+In this HTML file nested_list.html which a nested unordered list I import the external style file CSS which is named
 listStyle.css.
 
 ### ord_list_icons.html
@@ -84,7 +84,7 @@ bullet with a content emoji.
 
 in this HTML file is a form, which contains name, password, email, url, gender. At the `name`,`email`,`password` when
 the input is active the border is red and while entering text is pink. The URL is disabled and the input background
-color is gray. When is choose the gender - the input become yellow.
+color is gray. When is chosen the gender - the input become yellow.
 
 ### table_colors.html
 
@@ -93,18 +93,18 @@ different colors unit. The first one - with the color name, second one - hex and
 
 ### boxModel.html
 
-In this HTML file are two boxes. First contains the proprietes wich are given: 5px, black, dotted border; top margin of
+In this HTML file are two boxes. First contains the properties which are given: 5px, black, dotted border; top margin of
 20px; right margin of 1em; bottom margin of 40px; left margin of 2em; padding on all sides of 1em. Second contains
 styled by me. To the both boxes was applied the box-sizing.
 
 ### boxImages.html
 
 This file contains 3 boxes with 3 images. There were used the model box components. I added a border and use some
-properties. Added some backgraund and used some backgraund properties.
+properties. Added some background and used some background properties.
 
 ### About_position.html
 
-In this HTML file was added four divs to the page. Inside of each div is a text. Each div has a border. Position each
+In this HTML file was added four divs to the page. In each div is a text. Each div has a border. Position each
 div absolutely. Each div has a top and left value.
 
 ### bloksQuote.html
@@ -134,6 +134,16 @@ navigation. Here I used floats, display property with list and table options wit
 This is new responsive layout page with flexbox.
 
 ### Grid_container_1.html; Grid_container_2.html; Grid_container_3.html; Grid_container_4.html; Grid_container_5.html;
+
 ### Grid_container_6.html; Grid_container_7.html; Grid_container_8.html; Grid_container_9.html
 
 These HTML files contain different grid containers with the given layouts.
+
+### angles_typeOf_PhonePrefix.html
+
+In this task are three JS programs:
+
+1. This is a program to find the types of an angle (acute angle, right angle, obtuse angle, straight angle);
+2. A JavaScript function which accepts an argument and return the type;
+3. Program with a function which takes an argument. The argument should be a country abbreviation. Based on the
+   abbreviation return the phone prefix. Is 10 countries.
