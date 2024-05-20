@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Three programs in JS</title>
+    <link rel="stylesheet" href="angles_typeOf_PhonePrefix.css">
+    <script src="angles_typeOf_phonePrefix.js">
+    </script>
+</head>
+<body>
+<!-- the first exercise -->
+<div class="typesOfAngles">
+    <h2>Types of an angle</h2>
+    <label for="insertNrOfDegrees"></label>
+    <input type="number" id="insertNrOfDegrees">
+    <button class="angleBtn" type="button" onclick="typeOfAngle()">Give type of angle</button>
+    <span id="angleValue">Value of angle</span>
+</div>
+<!-- the second exercise -->
+<div class="typeOfVar">
+    <h2> Type of argument</h2>
+    <button class="btnOfVar" type="button" onclick="getTypeOfVar(true)">Type of var</button>
+    <span id="giveVar"></span>
+</div>
+<!-- the third exercise -->
+<div class="countriesAbbreviationPrefix">
+    <h2>choose the country for phone prefix:</h2>
+    <select onchange="phonePrefix(document.getElementById('phonePrefixId').value)" id="phonePrefixId">
+        <option value="">Select country</option>
+        <option value="MD">Moldova</option>
+        <option value="RO">Romania</option>
+        <option value="UA">Ukraine</option>
+        <option value="USA">The United States of America</option>
+        <option value="GB">Great Britain</option>
+        <option value="BR">Brazil</option>
+        <option value="PL">Poland</option>
+        <option value="NO">Norway</option>
+        <option value="IT">Italy</option>
+        <option value="CN">Guinea</option>
+    </select>
+    <span id="phonePrefixValue"></span>
+</div>
+</body>
+</html>

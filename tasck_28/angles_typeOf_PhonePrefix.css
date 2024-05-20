@@ -1,0 +1,92 @@
+/* the first exercise*/
+body {
+    background: rgba(0, 169, 169, 0.07);
+}
+
+.typesOfAngles {
+    height: 300px;
+    width: 600px;
+    border: 5px double #235164;
+    background: rgba(0, 169, 169, 0.04);
+    padding: 15px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    align-content: stretch;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 15px 32px;
+    color: white;
+    font-size: 3ch;
+    cursor: pointer;
+}
+
+.angleBtn {
+    grid-area: 2 / 2;
+    background-color: #1d4150;
+}
+
+#insertNrOfDegrees {
+    grid-area: 2 / 1;
+}
+
+input {
+    height: 3.5ch;
+    width: 6ch;
+    font-size: 3ch;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #1d4150;
+    grid-column: 1 / span 2;
+
+}
+
+span {
+    font-size: 3ch;
+    text-align: center;
+}
+
+#angleValue {
+
+    grid-column: 1 /  span 2;
+}
+
+/* the second exercise*/
+
+.typeOfVar {
+    height: 200px;
+    width: 600px;
+    border: 5px double #28501d;
+    padding: 15px;
+    margin: auto;
+    background: rgba(42, 169, 0, 0.09);
+}
+
+.btnOfVar {
+    background-color: #28501d;
+}
+
+/* the third exercise*/
+.countriesAbbreviationPrefix {
+    height: 200px;
+    width: 600px;
+    border: 5px double #888787;
+    padding: 15px;
+    margin: auto;
+    background: rgba(240, 243, 240, 0.09);
+}
+
+select {
+    color: #888787;
+    font-size: 3ch;
+    width: 15ch;
+    height: 4ch;
+}
