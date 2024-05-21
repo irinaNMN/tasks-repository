@@ -134,6 +134,15 @@ navigation. Here I used floats, display property with list and table options wit
 This is new responsive layout page with flexbox.
 
 ### Grid_container_1.html; Grid_container_2.html; Grid_container_3.html; Grid_container_4.html; Grid_container_5.html;
+
 ### Grid_container_6.html; Grid_container_7.html; Grid_container_8.html; Grid_container_9.html
 
 These HTML files contain different grid containers with the given layouts.
+
+### task_29
+
+In this task are two JavaScript programs:
+
+1. JS program which receive as first parameter an array and second parameter a separator and return a string;
+2. JS function that if receive a number as argument will return the reverse of it and if receive as argument a string
+   return this string with letters ordered by alphabetical order.
