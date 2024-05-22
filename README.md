@@ -139,6 +139,10 @@ This is new responsive layout page with flexbox.
 
 These HTML files contain different grid containers with the given layouts.
 
+### fileWithJS.html
+
+Here was created my first js program. Was written 'Hello, World!' using : console.log(); alert(); document.write().
+
 ### Task_30.html
 
 In this file are three JavaScript programs:
