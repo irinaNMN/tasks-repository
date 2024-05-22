@@ -134,6 +134,18 @@ navigation. Here I used floats, display property with list and table options wit
 This is new responsive layout page with flexbox.
 
 ### Grid_container_1.html; Grid_container_2.html; Grid_container_3.html; Grid_container_4.html; Grid_container_5.html;
+
 ### Grid_container_6.html; Grid_container_7.html; Grid_container_8.html; Grid_container_9.html
 
 These HTML files contain different grid containers with the given layouts.
+
+### Task_30.html
+
+In this file are three JavaScript programs:
+
+1. A program which will receive as an argument an array of data containing also duplicated values and will return an
+   array of unique values. As result we should also show the most frequent item from initial array;
+2. A program in which user will receive as argument an array of numbers and will return the minimum and the maximum
+   numbers from it;
+3. A program in which user will add value from input and they will create an array with entered values. On display click
+   we should see every element position and value as in the image below.
