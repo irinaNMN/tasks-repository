@@ -134,6 +134,7 @@ navigation. Here I used floats, display property with list and table options wit
 This is new responsive layout page with flexbox.
 
 ### Grid_container_1.html; Grid_container_2.html; Grid_container_3.html; Grid_container_4.html; Grid_container_5.html;
+
 ### Grid_container_6.html; Grid_container_7.html; Grid_container_8.html; Grid_container_9.html
 
 These HTML files contain different grid containers with the given layouts.
@@ -141,3 +142,10 @@ These HTML files contain different grid containers with the given layouts.
 ### fileWithJS.html
 
 Here was created my first js program. Was written 'Hello, World!' using : console.log(); alert(); document.write().
+
+### Task 32
+
+Create a simple "Car" object that has the following properties. Create an object to hold information on your favorite
+recipe. It should have properties for title (a string), servings (a number), and ingredients (an array of
+strings).Create an array of objects, where each object describes a book and has properties for the title (a string),
+author (a string), and alreadyRead (a boolean indicating if you read it yet)
