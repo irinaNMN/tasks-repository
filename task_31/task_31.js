@@ -22,7 +22,7 @@ window.onload = function () {
 
     // task 2A
     document.getElementById('keyboard').addEventListener('keypress', (code) => {
-        console.log('A fost facut click pe butonul ' + code.key)
+        console.log('Was pressed the button ' + code.key)
     });
 
     const submitButton = document.getElementById('submitValidator');
@@ -61,5 +61,5 @@ let clickCount = 0;
 
 function countClick() {
     clickCount++;
-    console.log(clickCount);
+    console.log('Clicked ' + clickCount + ' times on COUNT button');
 }
