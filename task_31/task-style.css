@@ -1,0 +1,74 @@
+.imageDisplay {
+  padding: 10px;
+  width: 500px;
+  height: 350px;
+  border: 5px double #1d4150;
+  margin: auto;
+  text-align: center; }
+
+.likeButton {
+  text-transform: uppercase;
+  background-color: #1d4150;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #385f81;
+  padding: 10px 15px;
+  line-height: 1.25;
+  cursor: pointer;
+  font-size: large; }
+
+.theImg {
+  height: 300px;
+  display: block;
+  padding: 5px; }
+
+.hideImage {
+  display: none; }
+
+.clickCount {
+  width: 500px;
+  height: 200px;
+  border: 5px double #1d4150;
+  margin: auto;
+  padding: 10px;
+  text-align: center; }
+
+.formWithInput {
+  width: 500px;
+  height: 350px;
+  border: 5px double #1d4150;
+  margin: auto;
+  padding: 10px;
+  text-align: center; }
+
+button {
+  text-transform: uppercase;
+  background-color: #1d4150;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #385f81;
+  padding: 15px 20px;
+  line-height: 1.25;
+  cursor: pointer;
+  font-size: large;
+  margin: 5px; }
+
+#keyboard {
+  display: block;
+  width: 100px;
+  margin: auto; }
+
+input {
+  border-color: #1d4150;
+  margin: 5px;
+  font-size: x-large;
+  color: #385f81; }
+
+.require {
+  border: 5px solid red; }
+
+#submitValidator {
+  display: block;
+  margin: auto; }
+
+/*# sourceMappingURL=task-style.css.map */

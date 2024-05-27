@@ -141,3 +141,10 @@ These HTML files contain different grid containers with the given layouts.
 ### fileWithJS.html
 
 Here was created my first js program. Was written 'Hello, World!' using : console.log(); alert(); document.write().
+
+### task_31
+
+Here was added a span to an HTML page and style it to appear like a button, and was added a listener for click events to
+the button so that, when the button is clicked, an image is displayed below the button. the image may be present in the
+mark-up before is clicked, but should be hidden from view. A second event handler to the image. When the image is clicked
+hide the image again. 
