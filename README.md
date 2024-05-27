@@ -138,6 +138,10 @@ This is new responsive layout page with flexbox.
 
 These HTML files contain different grid containers with the given layouts.
 
+### fileWithJS.html
+
+Here was created my first js program. Was written 'Hello, World!' using : console.log(); alert(); document.write().
+
 ### task_31
 
 Here was added a span to an HTML page and style it to appear like a button, and was added a listener for click events to
