@@ -1,4 +1,4 @@
-_# README.md
+# README.md
 
 ## Description
 
@@ -138,6 +138,10 @@ This is new responsive layout page with flexbox.
 ### Grid_container_6.html; Grid_container_7.html; Grid_container_8.html; Grid_container_9.html
 
 These HTML files contain different grid containers with the given layouts.
+
+### fileWithJS.html
+
+Here was created my first js program. Was written 'Hello, World!' using : console.log(); alert(); document.write().
 
 ### Task 32
 
