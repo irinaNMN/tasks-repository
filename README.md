@@ -141,3 +141,9 @@ These HTML files contain different grid containers with the given layouts.
 ### fileWithJS.html
 
 Here was created my first js program. Was written 'Hello, World!' using : console.log(); alert(); document.write().
+
+### task_34.html
+
+A JavaScript function to get the month name from a particular date; a JavaScript function to check whether two dates
+fall on the same week day; a JavaScript function to get difference between two dates in days; a JavaScript function to
+get the minimum date from an array of dates.
