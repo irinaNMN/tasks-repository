@@ -134,6 +134,13 @@ navigation. Here I used floats, display property with list and table options wit
 This is new responsive layout page with flexbox.
 
 ### Grid_container_1.html; Grid_container_2.html; Grid_container_3.html; Grid_container_4.html; Grid_container_5.html;
+
 ### Grid_container_6.html; Grid_container_7.html; Grid_container_8.html; Grid_container_9.html
 
 These HTML files contain different grid containers with the given layouts.
+
+### task_34.html
+
+A JavaScript function to get the month name from a particular date; a JavaScript function to check whether two dates
+fall on the same week day; a JavaScript function to get difference between two dates in days; a JavaScript function to
+get the minimum date from an array of dates.
