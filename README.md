@@ -134,6 +134,13 @@ navigation. Here I used floats, display property with list and table options wit
 This is new responsive layout page with flexbox.
 
 ### Grid_container_1.html; Grid_container_2.html; Grid_container_3.html; Grid_container_4.html; Grid_container_5.html;
+
 ### Grid_container_6.html; Grid_container_7.html; Grid_container_8.html; Grid_container_9.html
 
 These HTML files contain different grid containers with the given layouts.
+
+### Task_35
+
+A JavaScript program to get the width and height of the window (any time the window is resized). A function that
+capitalizes the first letter of each word in a given string. A function that sorts an array of objects by a given
+property. Are given an array of student objects, where each student object contains the following properties
