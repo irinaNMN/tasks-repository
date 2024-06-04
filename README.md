@@ -141,3 +141,10 @@ These HTML files contain different grid containers with the given layouts.
 ### fileWithJS.html
 
 Here was created my first js program. Was written 'Hello, World!' using : console.log(); alert(); document.write().
+
+### Task_36
+
+A function to extract numbers from a string. Function findCapitalizedWords(str) that returns an array of words that
+start with a capital letter. Function to validate date format according to some special format as for example:
+‘YYYY-MM-DD’. Function findDuplicateWords(str) that returns an array of duplicate
+words in the string and a function to extract the domain from an email.
