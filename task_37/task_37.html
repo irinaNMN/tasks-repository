@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="task_37.js"></script>
+    <link rel="stylesheet" href="task_37Style.css">
+</head>
+<body>
+
+<form>
+    <fieldset>
+        <legend>Registration Form</legend>
+        <div class="userId">
+            <label for="userId">User id:</label>
+            <input type="number" id="userId" name="userId" placeholder="from 5 to 12">
+            <span id="errorUserId" class="hiddenClass redClass">Length must be 5 to 12 chars</span>
+        </div>
+        <div class="pwd">
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" placeholder="password">
+            <span id="errorPwd" class="hiddenClass redClass">Length must be 7 to 12 chars</span>
+        </div>
+        <div class="nameYour">
+            <label for="yourName">Name:</label>
+            <input type="text" id="yourName" name="yourName" placeholder="Name" required>
+            <span id="nameYour" class="hiddenClass redClass">Only alphabets</span>
+        </div>
+        <div class="yourAddress">
+            <label for="yourAddr">Address:</label>
+            <input type="text" id="yourAddr" name="yourAddr" placeholder="optional">
+        </div>
+        <div class="blockCountry">
+            <label for="yourCountry">Country:</label>
+            <select id="yourCountry" name="yourCountry">
+                <option value=""> -</option>
+                <option value="republicOfMoldova">Republic of Moldova</option>
+                <option value="romania">Romania</option>
+                <option value="ukraine">Ukraine</option>
+            </select>
+            <span id="msgYourCountry" class="hiddenClass redClass">Must select a country</span>
+        </div>
+        <div class="blockZipCode">
+            <label for="zipCode">ZIP Code</label>
+            <input type="text" id="zipCode" name="zipCode" placeholder="only numbers" required>
+            <span id="msgZipCode" class="hiddenClass redClass">Must be numeric only</span>
+        </div>
+        <div class="emailYour">
+            <label for="yourEmail">Email:</label>
+            <input type="email" id="yourEmail" name="yourEmail" required>
+            <span id="msgEmail" class="hiddenClass redClass">Must be a valid email</span>
+        </div>
+        <div class="msgSex">
+            <span>Sex: </span>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <div id="msgSex" class="hiddenClass redClass">Must select your sex</div>
+        </div>
+        <div>
+            <span>Language:</span>
+            <input type="checkbox" id="english" name="language" value="English" required>
+            <label for="english"> English</label>
+            <input type="checkbox" id="nonEnglish" name="language" value="nonEnglish" required>
+            <label for="nonEnglish">Non-English</label>
+            <div id="msgLanguage" class="hiddenClass redClass">Must select language</div>
+        </div>
+        <span>About:</span>
+        <div>
+            <label>
+                <textarea name="message">Optional</textarea>
+            </label>
+            <span id="msgAbout"></span>
+        </div>
+        <div>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+    </fieldset>
+</form>
+</body>
+</html>
