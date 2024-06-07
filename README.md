@@ -137,3 +137,7 @@ This is new responsive layout page with flexbox.
 ### Grid_container_6.html; Grid_container_7.html; Grid_container_8.html; Grid_container_9.html
 
 These HTML files contain different grid containers with the given layouts.
+
+### Task_38
+
+Here was created 3 classes called "Car", "Person" and "BankAccount" that has the following given properties.
