@@ -40,12 +40,11 @@ class Person {
     }
 
     introduce() {
-        /*return 'My name is ' + this.firstName + ' ' + this.lastName + ' and I am ' + this.age + ' years old';*/
         return `My name is ${this.firstName} ${this.lastName} and I am ${this.age} years old`;
     }
 
     setEmail(newEmail) {
-        return this.email = newEmail;
+        this.email = newEmail;
     }
 
     getEmail() {
@@ -67,38 +66,30 @@ console.log(myPerson2.getEmail());
 
 //////////////////////////////
 console.log('---------The 3th task----------')
-
 class BankAccount {
     _privateAccountNumber = 0;
     #privateBalance = 0;
-
     constructor(accountNumber, balance, accountType) {
         this._privateAccountNumber = accountNumber;
         this.#privateBalance = balance;
         this.accountType = accountType;
     }
-
     deposit(i) {
         return i + this.#privateBalance;
     }
-
     withdraw(i) {
         return this.#privateBalance - i;
     }
-
     checkBalance() {
         return this.#privateBalance;
     }
-
     set privateAccountNumber(i) {
         this._privateAccountNumber = i;
     }
-
     get privateAccountNumber() {
         return this._privateAccountNumber;
     }
 }
-
 const myBankAccount = new BankAccount('a1234b', 500, 'public');
 console.log(myBankAccount);
 console.log(`This is my deposit: ${myBankAccount.deposit(250)}`);
