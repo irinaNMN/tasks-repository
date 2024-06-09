@@ -141,3 +141,7 @@ These HTML files contain different grid containers with the given layouts.
 ### fileWithJS.html
 
 Here was created my first js program. Was written 'Hello, World!' using : console.log(); alert(); document.write().
+
+### Task_38
+
+Here was created 3 classes called "Car", "Person" and "BankAccount" that has the following given properties.
