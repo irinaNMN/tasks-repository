@@ -134,6 +134,7 @@ navigation. Here I used floats, display property with list and table options wit
 This is new responsive layout page with flexbox.
 
 ### Grid_container_1.html; Grid_container_2.html; Grid_container_3.html; Grid_container_4.html; Grid_container_5.html;
+
 ### Grid_container_6.html; Grid_container_7.html; Grid_container_8.html; Grid_container_9.html
 
 These HTML files contain different grid containers with the given layouts.
@@ -141,3 +142,8 @@ These HTML files contain different grid containers with the given layouts.
 ### fileWithJS.html
 
 Here was created my first js program. Was written 'Hello, World!' using : console.log(); alert(); document.write().
+
+### Task_39
+
+Created a new Map object called "employees" and add the given key-value pairs. Created a new Set object called "skills"
+and added the given items.
