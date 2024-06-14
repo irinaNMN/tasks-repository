@@ -36,7 +36,7 @@ related items . A second Level heading above the list with text describing what 
 
 ### description.html
 
-In this file i seted the title and a top level heading to Description List. Created a descriptions list with
+In this file is set the title and a top level heading to Description List. Created a descriptions list with
 descriptions of the following HTML terms:
 
 1) HTML
@@ -84,7 +84,7 @@ bullet with a content emoji.
 
 in this HTML file is a form, which contains name, password, email, url, gender. At the `name`,`email`,`password` when
 the input is active the border is red and while entering text is pink. The URL is disabled and the input background
-color is gray. When is choose the gender - the input become yellow.
+color is gray. When is select the gender - the input become yellow.
 
 ### table_colors.html
 
@@ -100,7 +100,7 @@ styled by me. To the both boxes was applied the box-sizing.
 ### boxImages.html
 
 This file contains 3 boxes with 3 images. There were used the model box components. I added a border and use some
-properties. Added some backgraund and used some backgraund properties.
+properties. Added some  and used some background properties.
 
 ### About_position.html
 
@@ -134,10 +134,13 @@ navigation. Here I used floats, display property with list and table options wit
 This is new responsive layout page with flexbox.
 
 ### Grid_container_1.html; Grid_container_2.html; Grid_container_3.html; Grid_container_4.html; Grid_container_5.html;
-
 ### Grid_container_6.html; Grid_container_7.html; Grid_container_8.html; Grid_container_9.html
 
 These HTML files contain different grid containers with the given layouts.
+
+### fileWithJS.html
+
+Here was created my first js program. Was written 'Hello, World!' using : console.log(); alert(); document.write().
 
 ### Task_40.html
 
