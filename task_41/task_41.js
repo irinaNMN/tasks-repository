@@ -1,4 +1,4 @@
-let operationArithmetical = new Promise((resolve, reject) => {
+let operationArithmetical = new Promise((resolve) => {
     resolve(5 + 8);
 });
 operationArithmetical.then(result => {
