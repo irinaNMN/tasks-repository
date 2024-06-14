@@ -134,6 +134,16 @@ navigation. Here I used floats, display property with list and table options wit
 This is new responsive layout page with flexbox.
 
 ### Grid_container_1.html; Grid_container_2.html; Grid_container_3.html; Grid_container_4.html; Grid_container_5.html;
+
 ### Grid_container_6.html; Grid_container_7.html; Grid_container_8.html; Grid_container_9.html
 
 These HTML files contain different grid containers with the given layouts.
+
+### Task_40.html
+
+A function safeDivide that takes two numbers as input and returns their division. If division by zero occurs, return an
+error message instead of throwing an error. A function safeArrayAccess that takes an array and an index as input and
+returns the element at the given index. If the index is out of bounds, return an error message. A function
+validateJsonStructure that takes a JSON string and an array of required properties as input, parses the JSON string, and
+checks if all required properties exist. Handle any errors during parsing and return appropriate error messages or a
+success message.

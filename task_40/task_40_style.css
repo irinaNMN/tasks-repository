@@ -1,0 +1,14 @@
+.myTaskOne, .myTaskTwo{
+    width: 550px;
+    border: 2px solid gray;
+    margin: auto;
+    padding: 15px;
+    height: 200px;
+    font-size: x-large;
+    line-height: 3ch;
+}
+button, input {
+    height: 5ch;
+    width: 15ch;
+    font-size: large;
+}
