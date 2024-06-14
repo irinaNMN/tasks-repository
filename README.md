@@ -36,7 +36,7 @@ related items . A second Level heading above the list with text describing what 
 
 ### description.html
 
-In this file i seted the title and a top level heading to Description List. Created a descriptions list with
+In this file is set the title and a top level heading to Description List. Created a descriptions list with
 descriptions of the following HTML terms:
 
 1) HTML
@@ -84,7 +84,7 @@ bullet with a content emoji.
 
 in this HTML file is a form, which contains name, password, email, url, gender. At the `name`,`email`,`password` when
 the input is active the border is red and while entering text is pink. The URL is disabled and the input background
-color is gray. When is choose the gender - the input become yellow.
+color is gray. When is select the gender - the input become yellow.
 
 ### table_colors.html
 
@@ -100,7 +100,7 @@ styled by me. To the both boxes was applied the box-sizing.
 ### boxImages.html
 
 This file contains 3 boxes with 3 images. There were used the model box components. I added a border and use some
-properties. Added some backgraund and used some backgraund properties.
+properties. Added some  and used some background properties.
 
 ### About_position.html
 
@@ -141,3 +141,12 @@ These HTML files contain different grid containers with the given layouts.
 ### fileWithJS.html
 
 Here was created my first js program. Was written 'Hello, World!' using : console.log(); alert(); document.write().
+
+### Task_40.html
+
+A function safeDivide that takes two numbers as input and returns their division. If division by zero occurs, return an
+error message instead of throwing an error. A function safeArrayAccess that takes an array and an index as input and
+returns the element at the given index. If the index is out of bounds, return an error message. A function
+validateJsonStructure that takes a JSON string and an array of required properties as input, parses the JSON string, and
+checks if all required properties exist. Handle any errors during parsing and return appropriate error messages or a
+success message.
