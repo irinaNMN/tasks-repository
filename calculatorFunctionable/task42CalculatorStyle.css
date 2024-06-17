@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    margin-top: 100px;
+    background-color: darkslategray;
+    color: white;
+    text-transform: uppercase;
+}
+
+.calculator {
+    background-color: white;
+    width: 20%;
+    height: 50%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    width: 23%;
+    font-size: 3ch;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1d4150;
+    color: white;
+}
+
+#display {
+    width: 70%;
+    height: 3ch;
+    font-size: 3ch;
+    padding: 8px;
+    margin: 1%;
+    border-radius: 10px;
+}
